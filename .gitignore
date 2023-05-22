@@ -174,3 +174,5 @@ fabric.properties
 .idea
 
 go.sum
+*.en
+cmdtest
