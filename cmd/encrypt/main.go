@@ -23,9 +23,9 @@ func main() {
 	dir := os.Args[1]
 	password := os.Args[2]
 
-	outputFile := fmt.Sprintf("%s.en", dir)
+	outputFile := fmt.Sprintf("%s.goen", dir)
 
-	fmt.Printf("target: %s.en\n", dir)
+	fmt.Printf("target: %s.goen\n", dir)
 
 	err := encryptAndCompressDirectory(dir, outputFile, password)
 	if err != nil {
